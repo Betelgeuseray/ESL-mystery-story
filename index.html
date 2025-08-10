@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Vanishing Light</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>The Vanishing Light</h1>
+    <p class="intro">
+      It began on a stormy night. The lights flickered in the old classroom, and then... vanished. No one knew why. No one saw who. But something—or someone—was there.
+    </p>
+    <p class="challenge">To find out what happens next, answer this grammar question:</p>
+
+    <h2>🧠 Grammar Challenge: Conditional Type 1</h2>
+    <p>If the lights <strong>go out</strong> again, what will you do?</p>
+
+    <select id="q1">
+      <option value="">Choose an answer</option>
+      <option value="wrong">If the lights went out again, I would scream.</option>
+      <option value="correct">If the lights go out again, I will scream.</option>
+      <option value="wrong">If the lights go out again, I screamed.</option>
+    </select>
+    <button onclick="checkAnswer()">Submit</button>
+    <p id="feedback"></p>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
